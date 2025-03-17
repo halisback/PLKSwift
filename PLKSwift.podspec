@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.swift_versions   = ['5.0']
   s.ios.deployment_target = '12.0'
   s.osx.deployment_target = '10.13'
-  s.tvos.deployment_target = nil # Excluir tvOS si no es necesario
+  s.tvos.deployment_target = nil 
   s.dependency 'SwiftyJSON'
   s.requires_arc     = true
 end
